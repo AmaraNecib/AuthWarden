@@ -1,0 +1,28 @@
+{
+  "name": "authwarden",
+  "description": "A lightweight, simple, easy, and fast JWT authentication library for Node.js.",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "module": "dist/index.mjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmaraNecib/AuthWarden.git"},
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": ["auth", "jwt", "json", "web", "api", "authwarden", "lightweight", "simple", "easy", "fast"],
+  "author": "Amara Necib",
+  "license": "MIT",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/node": "^22.10.5",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  }
+}
