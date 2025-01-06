@@ -159,9 +159,19 @@ The library requires the following environment variables:
 Contributions are welcome! Please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Commit your changes.
-4. Submit a pull request.
+2. Clone the repository.
+```
+git clone https://github.com/AmaraNecib/authwarden.git
+```
+4. Create a new branch for your feature or bugfix.
+```
+git checkout -b feature-name
+```
+6. Commit your changes.
+```git commit -m "Add new feature"
+git push origin feature-name
+```
+5. Submit a pull request.
 
 ---
 
