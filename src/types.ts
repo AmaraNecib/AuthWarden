@@ -1,10 +1,10 @@
-import { JwtPayload } from "jsonwebtoken";
+import { JWTPayload } from "jose";
 
-// lets create a type fpr this ``{ valid: boolean; payload?: JwtPayload | string; error?: string }``
+// lets create a type for this ``{ valid: boolean; payload?: JWTPayload | string; error?: string }``
 export interface TokenVerification {
-    valid: boolean;
-    payload?: JwtPayload | string;
-    error?: string;
+  valid: boolean;
+  payload?: JWTPayload | string;
+  error?: string;
 }
 
 export interface TokenPayload extends Record<string, any> {
